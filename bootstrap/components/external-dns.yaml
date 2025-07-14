@@ -15,7 +15,7 @@ spec:
       ref: main
       folder: helm
     repositoryRef:
-      name: infra # this should point to your `plural up` repo
+      name: infra # thisshould point to your `plural up` repo
       namespace: infra
     helm:
       version: 8.3.8
