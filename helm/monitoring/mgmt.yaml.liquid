@@ -1,5 +1,5 @@
 vmcluster:
-  enabled: true
+  enabled: false
 
   spec:
     retentionPeriod: 7d
@@ -8,11 +8,6 @@ vmcluster:
         maxLabelsPerTimeseries: '50'
 
     vmstorage:
-      resources:
-        limits:
-          cpu: "1"
-          memory: 5Gi
-
       storage:
         volumeClaimTemplate:
           spec:
