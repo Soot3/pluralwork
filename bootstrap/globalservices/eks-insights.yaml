@@ -4,13 +4,13 @@ metadata:
   name: upgrade-insights
   namespace: infra
 spec:
-  distro: EKS
+  distro: GKE
   template:
     name: upgrade-insights
     namespace: plrl-deploy-operator
     git:
       ref: main
-      folder: services/upgradeinsights/eks
+      folder: services/upgradeinsights/gke
     repositoryRef:
       kind: GitRepository
       name: infra
